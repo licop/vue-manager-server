@@ -1,0 +1,14 @@
+[2023-02-21T10:39:53.291] [ERROR] error - ReferenceError: ctx1 is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:27:15
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-views/src/index.js:91:12)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:15)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-21T10:47:47.765] [ERROR] error - ReferenceError: ctx1 is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:27:15
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at views (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-views/src/index.js:91:12)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:15)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
