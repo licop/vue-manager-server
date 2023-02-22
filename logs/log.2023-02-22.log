@@ -1,0 +1,30 @@
+[2023-02-22T12:27:04.423] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:24:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:29:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-22T12:27:06.262] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:24:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:29:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-22T12:27:48.213] [ERROR] error - ReferenceError: err is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:24:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:29:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-22T12:30:01.519] [ERROR] error - ReferenceError: err is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:24:26
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:29:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-22T12:39:26.493] [ERROR] error - ReferenceError: res is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:19:17
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:29:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
