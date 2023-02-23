@@ -1,0 +1,60 @@
+[2023-02-23T10:49:56.827] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:49:56.838] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:50:03.136] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:50:03.144] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:51:57.341] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:51:57.354] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:57:30.103] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:57:30.119] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:57:37.832] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T10:57:37.843] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T11:06:54.019] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-02-23T11:06:54.027] [ERROR] error - ReferenceError: util is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/app.js:36:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:33:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)

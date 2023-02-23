@@ -2,7 +2,7 @@
  * 通用工具函数
  */
 const log4js = require('./log4j')
-// const jwt = require('jsonwebtoken')
+const jwt = require('jsonwebtoken')
 
 const CODE = {
   SUCCESS: 200,
@@ -45,13 +45,13 @@ module.exports = {
     }
   },
   CODE,
-  // decoded(authorization) {
-  //   if (authorization) {
-  //     let token = authorization.split(' ')[1]
-  //     return jwt.verify(token, 'imooc')
-  //   }
-  //   return '';
-  // },
+  decoded(authorization) {
+    if (authorization) {
+      let token = authorization.split(' ')[1]
+      return jwt.verify(token, 'licop')
+    }
+    return '';
+  },
   // 递归拼接树形列表
   getTreeMenu(rootList, id, list) {
     for (let i = 0; i < rootList.length; i++) {
