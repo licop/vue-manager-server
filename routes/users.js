@@ -8,7 +8,6 @@ const Counter = require('../models/counterSchema')
 const util = require('../utils/util')
 const md5 = require('md5')
 const jwt = require('jsonwebtoken')
-
 router.prefix('/users')
 
 // 用户登录
