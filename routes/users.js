@@ -1,7 +1,6 @@
 /**
  * 用户管理模块
  */
-
 const router = require('koa-router')()
 const User = require('../models/userSchema')
 const Counter = require('../models/counterSchema')
@@ -14,8 +13,7 @@ router.prefix('/users')
 router.post('/login', async (ctx, next) => {
 
  try {
-    const { userName, userPwd } = ctx.request.body
-    
+    const { userName, userPwd } = ctx.request.body 
     /**
      * 返回数据库指定字段，有三种方式
      * 1. 'userId userName userEmail state role deptId roleList'

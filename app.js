@@ -6,9 +6,10 @@ const onerror = require('koa-onerror')
 const bodyparser = require('koa-bodyparser')
 const log4js = require('./utils/log4j')
 const util = require('./utils/util')
-const users = require('./routes/users')
 const router = require('koa-router')()
 const koajwt = require('koa-jwt')
+const users = require('./routes/users')
+const menus = require('./routes/menus')
 
 // error handler
 onerror(app)
@@ -53,6 +54,8 @@ router.get('/leave/count', (ctx) => {
 
 // routes
 router.use(users.routes(), users.allowedMethods())
+router.use(menus.routes(), menus.allowedMethods())
+
 app.use(router.routes(), router.allowedMethods())
 
 // error-handling
