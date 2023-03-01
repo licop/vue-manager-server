@@ -13,7 +13,7 @@ router.prefix('/users')
 router.post('/login', async (ctx, next) => {
 
  try {
-    const { userName, userPwd } = ctx.request.body 
+    const { userName, userPwd } = ctx.request.body
     /**
      * 返回数据库指定字段，有三种方式
      * 1. 'userId userName userEmail state role deptId roleList'
@@ -22,14 +22,16 @@ router.post('/login', async (ctx, next) => {
      */
     const res = await User.findOne({
       userName,
-      userPwd
+      userPwd: md5(userPwd)
     }, 'userId userName userEmail state role deptId roleList')
+    console.log(res, 29)
+
     const data = res._doc
     
     const token = jwt.sign({
       data
     }, 'licop', { expiresIn: '1h' })
-     
+    console.log("data=>", data, 32)
     if(res) {
       data.token = token
       ctx.body = util.success(data)
@@ -69,6 +71,16 @@ router.get('/list',async (ctx) => {
     ctx.body = util.fail(`查询异常：${error.stack}`)
   }
 
+})
+
+// 获取全量用户列表
+router.get('/all/list', async (ctx) => {
+  try {
+    const list = await User.find({}, "userId userName userEmail")
+    ctx.body = util.success(list)
+  } catch (error) {
+    ctx.body = util.fail(error.stack)
+  }
 })
 
 // 用户删除/批量删除
