@@ -1,0 +1,108 @@
+[2023-03-02T09:44:34.237] [ERROR] error - ReferenceError: data is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:155:26
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at jwt (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-jwt/lib/index.js:73:16)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T09:52:11.735] [ERROR] error - ReferenceError: data is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:155:26
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at jwt (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-jwt/lib/index.js:73:16)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:12:20.272] [ERROR] error - ReferenceError: Role is not defined
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:167:20)
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:155:24
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at jwt (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-jwt/lib/index.js:73:16)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:12:28.658] [ERROR] error - ReferenceError: Role is not defined
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:167:20)
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:155:24
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at jwt (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-jwt/lib/index.js:73:16)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:12:57.857] [ERROR] error - TypeError: Cannot destructure property 'checkedKeys' of 'role.premissionList' as it is undefined.
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:172:13
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:14:36.541] [ERROR] error - TypeError: Cannot destructure property 'checkedKeys' of 'role.premissionList' as it is undefined.
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:172:13
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:16:07.202] [ERROR] error - ReferenceError: premissionList is not defined
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:172:19
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:16:38.113] [ERROR] error - TypeError: Cannot destructure property 'checkedKeys' of 'role.premissionList' as it is undefined.
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:173:13
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:18:02.995] [ERROR] error - TypeError: Cannot destructure property 'checkedKeys' of 'role.premissionList' as it is undefined.
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:173:13
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
+[2023-03-02T10:19:02.976] [ERROR] error - TypeError: halfCheckKeys is not iterable
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:174:66
+    at Array.map (<anonymous>)
+    at getMenuList (/Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:171:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:157:18
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
