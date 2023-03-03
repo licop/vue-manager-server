@@ -51,9 +51,7 @@ app.use(koajwt({ secret: 'licop' }).unless({
 
 router.prefix("/api")
 
-router.get('/leave/count', (ctx) => {
-  ctx.body = 'body'
-})
+
 
 // routes
 router.use(users.routes(), users.allowedMethods())
