@@ -14,7 +14,7 @@ router.prefix('/leave')
 router.get('/list', async (ctx) => {
   const { applyState, type } = ctx.request.query
   const { page, skipIndex } = util.pager(ctx.request.query)
-
+  
   let authorization = ctx.request.headers.authorization
   let { data } = util.decoded(authorization)
   try {

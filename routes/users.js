@@ -5,7 +5,7 @@ const router = require('koa-router')()
 const User = require('../models/userSchema')
 const Menu = require('../models/menuSchema')
 const Role = require('../models/roleSchema')
-
+const Dept = require('../models/deptSchema')
 const Counter = require('../models/counterSchema')
 const util = require('../utils/util')
 const md5 = require('md5')
@@ -27,7 +27,6 @@ router.post('/login', async (ctx, next) => {
       userName,
       userPwd: md5(userPwd)
     }, 'userId userName userEmail state role deptId roleList')
-    console.log(res, 29)
 
     const data = res._doc
     
@@ -50,19 +49,28 @@ router.post('/login', async (ctx, next) => {
 router.get('/list',async (ctx) => {
   const { userName, userId, state } = ctx.request.query
   const { page, skipIndex } = util.pager(ctx.request.query)
-  
+
   let params = {}
 
   if(userId) params.userId = userId
   if(userName) params.userName = userName
   if(state && state != '0') params.state = state
+  
 
   try {
     // 根据条件查询所有的用户列表
     const query = User.find(params, { _id: 0, userPwd: 0 })
-    const list = await query.skip(skipIndex).limit(page.pageSize)
+    let list = await query.skip(skipIndex).limit(page.pageSize)
     const total = await User.countDocuments(params)
+    
 
+    for(let item of list) {
+      const res = await Dept.findById(item.deptId[item.deptId.length - 1])
+      console.log(res.deptName, 69)
+      item.deptName = res.deptName
+    }
+    console.log(list, 71)
+    
     ctx.body = util.success({
       page: {
         ...page,

@@ -1,11 +1,11 @@
 const mongoose = require('mongoose')
 
 const deptSchema = mongoose.Schema({
-  deptName: String,
-  userId: String,
+  deptName: String, // 部门名称
+  userId: String,   // 部门负责人id
   userName: String,
   userEmail: String,
-  parentId: [ mongoose.Types.ObjectId ],
+  parentId: [ mongoose.Types.ObjectId ], 
   updateTime: {
     type: Date,
     default: Date.now()

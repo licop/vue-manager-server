@@ -1,0 +1,13 @@
+[2023-03-04T09:57:27.586] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'pop')
+    at /Users/licop/Documents/GitHub/vue-manager-server/routes/users.js:58:22
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:44:32)
+    at /Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at jwt (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-jwt/lib/index.js:73:16)
+    at async /Users/licop/Documents/GitHub/vue-manager-server/app.js:38:3
+    at async serve (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-static/index.js:53:9)
+    at async bodyParser (/Users/licop/Documents/GitHub/vue-manager-server/node_modules/koa-bodyparser/index.js:95:5)
