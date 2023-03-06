@@ -51,8 +51,6 @@ app.use(koajwt({ secret: 'licop' }).unless({
 
 router.prefix("/api")
 
-
-
 // routes
 router.use(users.routes(), users.allowedMethods())
 router.use(menus.routes(), menus.allowedMethods())

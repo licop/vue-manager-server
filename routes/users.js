@@ -66,10 +66,8 @@ router.get('/list',async (ctx) => {
 
     for(let item of list) {
       const res = await Dept.findById(item.deptId[item.deptId.length - 1])
-      console.log(res.deptName, 69)
       item.deptName = res.deptName
     }
-    console.log(list, 71)
     
     ctx.body = util.success({
       page: {

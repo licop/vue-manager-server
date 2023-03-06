@@ -55,7 +55,6 @@ router.get('/list', async (ctx) => {
 
 // 当前审核人通知数量
 router.get("/count", async (ctx) => {
-  ctx.body = util.success(10)
   let authorization = ctx.request.headers.authorization;
   let { data } = util.decoded(authorization);
   try {
@@ -155,11 +154,9 @@ router.post("/approve", async (ctx) => {
     params.auditLogs = auditLogs;
     let res = await Leave.findByIdAndUpdate(_id, params);
     ctx.body = util.success("", "处理成功");
-
   } catch (error) {
     ctx.body = util.fail(`查询异常：${error.message}`)
   }
-  
 })
 
 

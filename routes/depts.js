@@ -18,7 +18,6 @@ router.get('/list', async (ctx) => {
   }
 })
 
-
 // 递归拼接树形列表
 function getTreeDept(rootList, id, list) {
   for (let i = 0; i < rootList.length; i++) {
@@ -59,6 +58,5 @@ router.post('/operate', async (ctx) => {
     ctx.body = util.fail(error.stack)
   }
 })
-
 
 module.exports = router;
